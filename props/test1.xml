@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scheduler>
+    <Processes timeSlot="5">
+        <Process name="1" IOBlocking="50" cpuTime="80">
+        </Process>
+        <Process name="2" IOBlocking="30" cpuTime="50">
+        </Process>
+        <Process name="3" IOBlocking="20" cpuTime="60">
+        </Process>
+        <Process name="4" IOBlocking="10" cpuTime="90">
+        </Process>
+    </Processes>
+    <LogFile name="schedule.log"/>
+    <ResultFile name="result.log"/>
+</Scheduler>
