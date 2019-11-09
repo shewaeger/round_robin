@@ -32,6 +32,6 @@ public class Logger {
     }
 
     public void processStarted(Process process, int cpuTime){
-        log(String.format("Process %s I/O started (%d %d %d %d)", process.getName(), cpuTime, process.getCurrentTime(), process.getCpuTime(), process.getIOBlocking()));
+        log(String.format("Process %s started (%d %d %d %d)", process.getName(), cpuTime, process.getCurrentTime(), process.getCpuTime(), process.getIOBlocking()));
     }
 }
